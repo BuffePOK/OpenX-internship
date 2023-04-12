@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"algorithmes"},{"l":"algorithmes.interfaces"},{"l":"All Packages","u":"allpackages-index.html"},{"l":"data"},{"l":"data.parts.cart"},{"l":"data.parts.product"},{"l":"data.parts.user"},{"l":"settings"}];updateSearchResults();

@@ -1,0 +1,68 @@
+### Description of the program.
+### Author: Dmytro Dychenko.
+
+### Where to begin?
+### .jar
+Writes out all the data received from the API.
+Writes out the results of algorithms.
+
+### UnitTestAPI
+Checks whether the algorithms are working correctly. The data is taken from the API.
+
+### UnitTestOwn
+Checks whether the algorithms are working correctly. My data.
+
+### The program is based on three main classes, the data for which it receives through the API interface.
+### Data. Each of the presented data can be created from JSON data, or return a JSON string.
+
+User - Represents data for a User. Contains.
+-    AddressData address - represents data for an address. Contains.
+-	    String city
+-	    String street
+-	    int number
+-	    GeolocationData geolocation - represents data for a geolocation. Contains.
+-		    double longitude.
+-		    double latitude.
+-    String zipcode
+-    long id.
+-    String email. 
+-    String username. 
+-    char[] password. 
+-    NameData name - represents data for a full name. Contains.
+-	    String firstname.
+-	    String lastname.
+-    String phone.
+
+Product - represents data for a product. Contains.
+-	long id.
+-	String title. 
+-	double price. 
+-	String description. 
+-	String category.
+-	URL image.
+-	RatingData rating - represents data for a rating. Contains.
+-		double rate.
+-		int count.
+
+Cart - represents data for a cart. Contains.
+-	long id, 
+-	long userId, 
+-	LocalDateTime date, 
+-	ProductsData[] products - represents an array of a data for a products. Contains.
+-		long productId,
+-		int quantity
+
+### Algorithmes
+- Find the total value of products for all categories. Algorithm (O(n)):
+The algorithm passes through an array with Product objects, where it reads information about the category from each,
+and summarize the price with the one already available in the HashMap.
+
+- Find a cart with the highest value, determines its value and full name of its owner. Algorithm:
+1. Put all the products we know in a HashMap in order to quickly get information about them when we need it. O(n)
+2. Consider the information about each cart known to us, where we summarize prices about each product, using HashMap (1). O(n)
+3. Program has information about the most expensive cart, as well as the user's lunch. 
+4. Search for a user by performing an array search loop. O(n)
+
+- Find the two users living furthest away from each other. Algorithm (O(n^2)):
+Using two loops, program compare each user with each, calculating the distance between them. 
+Remembers the greatest distance, and the users when this distance was calculated.

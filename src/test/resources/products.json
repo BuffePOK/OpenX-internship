@@ -1,0 +1,80 @@
+[
+  {
+    "id":0,
+    "title":"Acer Nitro 5 AN515-57-79TD Gaming Laptop",
+    "price":739.99,
+    "description":"Dominate the Game: With the 11th Gen Intel Core i7-11800H processor, your Nitro 5 is packed with incredible power for all your games",
+    "category":"Computers, Tablets & Phones",
+    "image":"https://m.media-amazon.com/images/I/81lDOtJRTkL._AC_SL1500_.jpg",
+    "rating":
+    {
+      "rate":4.4,
+      "count":509
+    }
+  },
+  {
+    "id":1,
+    "title":"ASUS ROG Strix Scar 15 Gaming Laptop",
+    "price":1499.99,
+    "description":"SUPERCHARGED RTX GRAPHICS - Gameplay graphics are silky smooth with the NVIDIA GeForce RTX 3080 8GB GDDR6 at 130W with ROG Boost, with cutting-edge AI features like NVIDIA DLSS and Ray-Tracing",
+    "category":"Computers, Tablets & Phones",
+    "image":"https://m.media-amazon.com/images/I/71sgAr9atBS._AC_SL1500_.jpg",
+    "rating":
+    {
+      "rate":4.2,
+      "count":132
+    }
+  },
+  {
+    "id":2,
+    "title":"LEVOIT Air Purifier for Home Allergies Pets Hair in Bedroom",
+    "price":99.99,
+    "description":"Enjoy fresh air in 12 minutes with the Core 300 True HEPA Air Purifier. Featuring VortexAir Technology, 360° air intake, and CADR of 141 CFM / 240 m³/h (Clean Air Delivery Rate), Core 300 can purify air of a 1,095 ft² space once in one hour. The higher the CADR of an air purifier, the larger its purification area",
+    "category":"Heating, Cooling & Air Quality",
+    "image":"https://m.media-amazon.com/images/I/71WDOhMarhL._AC_SL1500_.jpg",
+    "rating":
+    {
+      "rate":4.7,
+      "count":83992
+    }
+  },
+  {
+    "id":3,
+    "title":"Ice Maker Countertop",
+    "price":165.91,
+    "description":"FREE VILLAGE’s countertop ice maker machine can produce 24 ice cubes per cycle (every 13 to 18 minutes). That means you can make up to 40 pounds of ice cubes every 24 hours. Best of all, you can adjust the thickness of the ice cubes according to your needs, letting you create perfect drinks.",
+    "category":"Ice Makers",
+    "image":"https://m.media-amazon.com/images/I/71X2g7HKV1L._SL1500_.jpg",
+    "rating":
+    {
+      "rate":4.2,
+      "count":1424
+    }
+  },
+  {
+    "id":4,
+    "title":"SAMSUNG Galaxy A54 5G A Series",
+    "price":449.99,
+    "description":"Enjoy binge-watching on a clear, 6.4\" screen* that provides a smooth entertainment experience; Scroll through social feeds and watch action-packed movies, catching all the details you need on your Galaxy A54 5G",
+    "category":"Computers, Tablets & Phones",
+    "image":"https://m.media-amazon.com/images/I/618MSLLHpGL._AC_SL1500_.jpg",
+    "rating":
+    {
+      "rate":4.0,
+      "count":1
+    }
+  },
+  {
+    "id":5,
+    "title":"FIT KING Leg Air Massager for Circulation and Relaxation Foot",
+    "price":75.59,
+    "description":"FEET & CALVES MASSAGE-this leg and foot air massager is used to massage your feet and calves, 2x2 air bags inside, simulates kneading and stroking of tissues, indicated for the relief of muscle aches and pains and for increase in circulation to the treated areas.",
+    "category":"Massage Tools & Equipment",
+    "image":"https://m.media-amazon.com/images/I/713O3sHR5HL._AC_SL1200_.jpg",
+    "rating":
+    {
+      "rate":4.3,
+      "count":15838
+    }
+  }
+]
